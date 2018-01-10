@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF569CA12005A3E80027512E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF569CA02005A3E80027512E /* AppDelegate.swift */; };
+		FF569CA32005A3E80027512E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF569CA22005A3E80027512E /* ViewController.swift */; };
+		FF569CA62005A3E80027512E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF569CA42005A3E80027512E /* Main.storyboard */; };
+		FF569CA82005A3E80027512E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF569CA72005A3E80027512E /* Assets.xcassets */; };
+		FF569CAB2005A3E80027512E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF569CA92005A3E80027512E /* LaunchScreen.storyboard */; };
+		FF569CB62005A3E80027512E /* MeetingRecordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF569CB52005A3E80027512E /* MeetingRecordTests.swift */; };
+		FF569CC12005A3E80027512E /* MeetingRecordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF569CC02005A3E80027512E /* MeetingRecordUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF569CB22005A3E80027512E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF569C952005A3E70027512E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF569C9C2005A3E70027512E;
+			remoteInfo = MeetingRecord;
+		};
+		FF569CBD2005A3E80027512E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF569C952005A3E70027512E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF569C9C2005A3E70027512E;
+			remoteInfo = MeetingRecord;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF569C9D2005A3E70027512E /* MeetingRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetingRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF569CA02005A3E80027512E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF569CA22005A3E80027512E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF569CA52005A3E80027512E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF569CA72005A3E80027512E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF569CAA2005A3E80027512E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF569CAC2005A3E80027512E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF569CB12005A3E80027512E /* MeetingRecordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetingRecordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF569CB52005A3E80027512E /* MeetingRecordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingRecordTests.swift; sourceTree = "<group>"; };
+		FF569CB72005A3E80027512E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF569CBC2005A3E80027512E /* MeetingRecordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetingRecordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF569CC02005A3E80027512E /* MeetingRecordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingRecordUITests.swift; sourceTree = "<group>"; };
+		FF569CC22005A3E80027512E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF569C9A2005A3E70027512E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF569CAE2005A3E80027512E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF569CB92005A3E80027512E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF569C942005A3E70027512E = {
+			isa = PBXGroup;
+			children = (
+				FF569C9F2005A3E70027512E /* MeetingRecord */,
+				FF569CB42005A3E80027512E /* MeetingRecordTests */,
+				FF569CBF2005A3E80027512E /* MeetingRecordUITests */,
+				FF569C9E2005A3E70027512E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF569C9E2005A3E70027512E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF569C9D2005A3E70027512E /* MeetingRecord.app */,
+				FF569CB12005A3E80027512E /* MeetingRecordTests.xctest */,
+				FF569CBC2005A3E80027512E /* MeetingRecordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF569C9F2005A3E70027512E /* MeetingRecord */ = {
+			isa = PBXGroup;
+			children = (
+				FF569CA02005A3E80027512E /* AppDelegate.swift */,
+				FF569CA22005A3E80027512E /* ViewController.swift */,
+				FF569CA42005A3E80027512E /* Main.storyboard */,
+				FF569CA72005A3E80027512E /* Assets.xcassets */,
+				FF569CA92005A3E80027512E /* LaunchScreen.storyboard */,
+				FF569CAC2005A3E80027512E /* Info.plist */,
+			);
+			path = MeetingRecord;
+			sourceTree = "<group>";
+		};
+		FF569CB42005A3E80027512E /* MeetingRecordTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF569CB52005A3E80027512E /* MeetingRecordTests.swift */,
+				FF569CB72005A3E80027512E /* Info.plist */,
+			);
+			path = MeetingRecordTests;
+			sourceTree = "<group>";
+		};
+		FF569CBF2005A3E80027512E /* MeetingRecordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF569CC02005A3E80027512E /* MeetingRecordUITests.swift */,
+				FF569CC22005A3E80027512E /* Info.plist */,
+			);
+			path = MeetingRecordUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF569C9C2005A3E70027512E /* MeetingRecord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF569CC52005A3E80027512E /* Build configuration list for PBXNativeTarget "MeetingRecord" */;
+			buildPhases = (
+				FF569C992005A3E70027512E /* Sources */,
+				FF569C9A2005A3E70027512E /* Frameworks */,
+				FF569C9B2005A3E70027512E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeetingRecord;
+			productName = MeetingRecord;
+			productReference = FF569C9D2005A3E70027512E /* MeetingRecord.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF569CB02005A3E80027512E /* MeetingRecordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF569CC82005A3E80027512E /* Build configuration list for PBXNativeTarget "MeetingRecordTests" */;
+			buildPhases = (
+				FF569CAD2005A3E80027512E /* Sources */,
+				FF569CAE2005A3E80027512E /* Frameworks */,
+				FF569CAF2005A3E80027512E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF569CB32005A3E80027512E /* PBXTargetDependency */,
+			);
+			name = MeetingRecordTests;
+			productName = MeetingRecordTests;
+			productReference = FF569CB12005A3E80027512E /* MeetingRecordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF569CBB2005A3E80027512E /* MeetingRecordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF569CCB2005A3E80027512E /* Build configuration list for PBXNativeTarget "MeetingRecordUITests" */;
+			buildPhases = (
+				FF569CB82005A3E80027512E /* Sources */,
+				FF569CB92005A3E80027512E /* Frameworks */,
+				FF569CBA2005A3E80027512E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF569CBE2005A3E80027512E /* PBXTargetDependency */,
+			);
+			name = MeetingRecordUITests;
+			productName = MeetingRecordUITests;
+			productReference = FF569CBC2005A3E80027512E /* MeetingRecordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF569C952005A3E70027512E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = nics1094;
+				TargetAttributes = {
+					FF569C9C2005A3E70027512E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FF569CB02005A3E80027512E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF569C9C2005A3E70027512E;
+					};
+					FF569CBB2005A3E80027512E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF569C9C2005A3E70027512E;
+					};
+				};
+			};
+			buildConfigurationList = FF569C982005A3E70027512E /* Build configuration list for PBXProject "MeetingRecord" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF569C942005A3E70027512E;
+			productRefGroup = FF569C9E2005A3E70027512E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF569C9C2005A3E70027512E /* MeetingRecord */,
+				FF569CB02005A3E80027512E /* MeetingRecordTests */,
+				FF569CBB2005A3E80027512E /* MeetingRecordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF569C9B2005A3E70027512E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF569CAB2005A3E80027512E /* LaunchScreen.storyboard in Resources */,
+				FF569CA82005A3E80027512E /* Assets.xcassets in Resources */,
+				FF569CA62005A3E80027512E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF569CAF2005A3E80027512E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF569CBA2005A3E80027512E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF569C992005A3E70027512E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF569CA32005A3E80027512E /* ViewController.swift in Sources */,
+				FF569CA12005A3E80027512E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF569CAD2005A3E80027512E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF569CB62005A3E80027512E /* MeetingRecordTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF569CB82005A3E80027512E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF569CC12005A3E80027512E /* MeetingRecordUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF569CB32005A3E80027512E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF569C9C2005A3E70027512E /* MeetingRecord */;
+			targetProxy = FF569CB22005A3E80027512E /* PBXContainerItemProxy */;
+		};
+		FF569CBE2005A3E80027512E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF569C9C2005A3E70027512E /* MeetingRecord */;
+			targetProxy = FF569CBD2005A3E80027512E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF569CA42005A3E80027512E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF569CA52005A3E80027512E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF569CA92005A3E80027512E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF569CAA2005A3E80027512E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF569CC32005A3E80027512E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF569CC42005A3E80027512E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF569CC62005A3E80027512E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5MMX4C3V9;
+				INFOPLIST_FILE = MeetingRecord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NICS.MeetingRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF569CC72005A3E80027512E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5MMX4C3V9;
+				INFOPLIST_FILE = MeetingRecord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NICS.MeetingRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF569CC92005A3E80027512E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5MMX4C3V9;
+				INFOPLIST_FILE = MeetingRecordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NICS.MeetingRecordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeetingRecord.app/MeetingRecord";
+			};
+			name = Debug;
+		};
+		FF569CCA2005A3E80027512E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5MMX4C3V9;
+				INFOPLIST_FILE = MeetingRecordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NICS.MeetingRecordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeetingRecord.app/MeetingRecord";
+			};
+			name = Release;
+		};
+		FF569CCC2005A3E80027512E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5MMX4C3V9;
+				INFOPLIST_FILE = MeetingRecordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NICS.MeetingRecordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MeetingRecord;
+			};
+			name = Debug;
+		};
+		FF569CCD2005A3E80027512E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5MMX4C3V9;
+				INFOPLIST_FILE = MeetingRecordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NICS.MeetingRecordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MeetingRecord;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF569C982005A3E70027512E /* Build configuration list for PBXProject "MeetingRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF569CC32005A3E80027512E /* Debug */,
+				FF569CC42005A3E80027512E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF569CC52005A3E80027512E /* Build configuration list for PBXNativeTarget "MeetingRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF569CC62005A3E80027512E /* Debug */,
+				FF569CC72005A3E80027512E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF569CC82005A3E80027512E /* Build configuration list for PBXNativeTarget "MeetingRecordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF569CC92005A3E80027512E /* Debug */,
+				FF569CCA2005A3E80027512E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF569CCB2005A3E80027512E /* Build configuration list for PBXNativeTarget "MeetingRecordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF569CCC2005A3E80027512E /* Debug */,
+				FF569CCD2005A3E80027512E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF569C952005A3E70027512E /* Project object */;
+}
