@@ -14,6 +14,44 @@
 		FF569CAB2005A3E80027512E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF569CA92005A3E80027512E /* LaunchScreen.storyboard */; };
 		FF569CB62005A3E80027512E /* MeetingRecordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF569CB52005A3E80027512E /* MeetingRecordTests.swift */; };
 		FF569CC12005A3E80027512E /* MeetingRecordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF569CC02005A3E80027512E /* MeetingRecordUITests.swift */; };
+		FF569D0A2005B38F0027512E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF569D082005B38F0027512E /* MainViewController.swift */; };
+		FF569D0B2005B38F0027512E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF569D092005B38F0027512E /* MainViewController.xib */; };
+		FF569D0E2005D2660027512E /* NaviCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF569D0C2005D2660027512E /* NaviCollectionViewCell.swift */; };
+		FF569D0F2005D2660027512E /* NaviCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF569D0D2005D2660027512E /* NaviCollectionViewCell.xib */; };
+		FF569D112005DB300027512E /* OProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF569D102005DB300027512E /* OProgressView.swift */; };
+		FF569D142006E8970027512E /* SubNaviCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF569D122006E8970027512E /* SubNaviCollectionViewCell.swift */; };
+		FF569D152006E8970027512E /* SubNaviCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF569D132006E8970027512E /* SubNaviCollectionViewCell.xib */; };
+		FF569D19200723BB0027512E /* LWLCollectionViewHorizontalLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FF569D17200723BB0027512E /* LWLCollectionViewHorizontalLayout.m */; };
+		FF569D1C20073FC70027512E /* MenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF569D1A20073FC70027512E /* MenuCollectionViewCell.swift */; };
+		FF569D1D20073FC70027512E /* MenuCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF569D1B20073FC70027512E /* MenuCollectionViewCell.xib */; };
+		FF7B52B52075C26F00D96014 /* isSetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7B52B32075C26F00D96014 /* isSetCollectionViewCell.swift */; };
+		FF7B52B62075C26F00D96014 /* isSetCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF7B52B42075C26F00D96014 /* isSetCollectionViewCell.xib */; };
+		FF7E3E712057F9AD0082AB68 /* ColorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7E3E6F2057F9AD0082AB68 /* ColorCollectionViewCell.swift */; };
+		FF7E3E722057F9AD0082AB68 /* ColorCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF7E3E702057F9AD0082AB68 /* ColorCollectionViewCell.xib */; };
+		FF7E3E752058FEC60082AB68 /* plusButtonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7E3E732058FEC60082AB68 /* plusButtonCollectionViewCell.swift */; };
+		FF7E3E762058FEC60082AB68 /* plusButtonCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF7E3E742058FEC60082AB68 /* plusButtonCollectionViewCell.xib */; };
+		FF7E3E78205BDC350082AB68 /* SwiftNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7E3E77205BDC350082AB68 /* SwiftNotice.swift */; };
+		FF92E1FD200C6A140040E27A /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF92E1FB200C6A140040E27A /* SelectViewController.swift */; };
+		FF92E1FE200C6A140040E27A /* SelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF92E1FC200C6A140040E27A /* SelectViewController.xib */; };
+		FF92E201200C97500040E27A /* tableTitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF92E1FF200C97500040E27A /* tableTitleCollectionViewCell.swift */; };
+		FF92E202200C97500040E27A /* tableTitleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF92E200200C97500040E27A /* tableTitleCollectionViewCell.xib */; };
+		FF92E205200CA1340040E27A /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF92E203200CA1340040E27A /* DataTableViewCell.swift */; };
+		FF92E206200CA1340040E27A /* DataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF92E204200CA1340040E27A /* DataTableViewCell.xib */; };
+		FF92E208200D8F260040E27A /* myClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF92E207200D8F260040E27A /* myClass.swift */; };
+		FF92E20B2011B17E0040E27A /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF92E2092011B17E0040E27A /* MessageViewController.swift */; };
+		FF92E20C2011B17E0040E27A /* MessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF92E20A2011B17E0040E27A /* MessageViewController.xib */; };
+		FF92E20F2011BF350040E27A /* messageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF92E20D2011BF350040E27A /* messageTableViewCell.swift */; };
+		FF92E2102011BF350040E27A /* messageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF92E20E2011BF350040E27A /* messageTableViewCell.xib */; };
+		FF92E2172011F4490040E27A /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF92E2152011F4490040E27A /* ColorViewController.swift */; };
+		FF92E2182011F4490040E27A /* ColorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF92E2162011F4490040E27A /* ColorViewController.xib */; };
+		FF92E31A20184C500040E27A /* CusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF92E31820184C500040E27A /* CusViewController.swift */; };
+		FF92E31B20184C500040E27A /* CusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF92E31920184C500040E27A /* CusViewController.xib */; };
+		FF92E320201EE8270040E27A /* popTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF92E31E201EE8270040E27A /* popTableViewCell.swift */; };
+		FF92E321201EE8270040E27A /* popTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF92E31F201EE8270040E27A /* popTableViewCell.xib */; };
+		FF92E324201EEBE60040E27A /* popHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF92E322201EEBE60040E27A /* popHeaderTableViewCell.swift */; };
+		FF92E325201EEBE60040E27A /* popHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF92E323201EEBE60040E27A /* popHeaderTableViewCell.xib */; };
+		FF92E371202D42970040E27A /* Pods_MeetingRecord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B056B85E5C35609C9F8EA1 /* Pods_MeetingRecord.framework */; };
+		FFB91E6B203BEA6700D80416 /* helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB91E6A203BEA6700D80416 /* helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +72,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B87637A1186CB09CDBB00D68 /* Pods-MeetingRecord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetingRecord.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeetingRecord/Pods-MeetingRecord.debug.xcconfig"; sourceTree = "<group>"; };
+		C7B056B85E5C35609C9F8EA1 /* Pods_MeetingRecord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeetingRecord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E31E489BABD6EC97AECA326B /* Pods-MeetingRecord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetingRecord.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeetingRecord/Pods-MeetingRecord.release.xcconfig"; sourceTree = "<group>"; };
 		FF569C9D2005A3E70027512E /* MeetingRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetingRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF569CA02005A3E80027512E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF569CA22005A3E80027512E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +88,46 @@
 		FF569CBC2005A3E80027512E /* MeetingRecordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetingRecordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF569CC02005A3E80027512E /* MeetingRecordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingRecordUITests.swift; sourceTree = "<group>"; };
 		FF569CC22005A3E80027512E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF569D082005B38F0027512E /* MainViewController.swift */ = {isa = PBXFileReference; indentWidth = 3; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FF569D092005B38F0027512E /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		FF569D0C2005D2660027512E /* NaviCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviCollectionViewCell.swift; sourceTree = "<group>"; };
+		FF569D0D2005D2660027512E /* NaviCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NaviCollectionViewCell.xib; sourceTree = "<group>"; };
+		FF569D102005DB300027512E /* OProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OProgressView.swift; sourceTree = "<group>"; };
+		FF569D122006E8970027512E /* SubNaviCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubNaviCollectionViewCell.swift; sourceTree = "<group>"; };
+		FF569D132006E8970027512E /* SubNaviCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubNaviCollectionViewCell.xib; sourceTree = "<group>"; };
+		FF569D16200723BA0027512E /* MeetingRecord-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MeetingRecord-Bridging-Header.h"; sourceTree = "<group>"; };
+		FF569D17200723BB0027512E /* LWLCollectionViewHorizontalLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWLCollectionViewHorizontalLayout.m; sourceTree = "<group>"; };
+		FF569D18200723BB0027512E /* LWLCollectionViewHorizontalLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWLCollectionViewHorizontalLayout.h; sourceTree = "<group>"; };
+		FF569D1A20073FC70027512E /* MenuCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCollectionViewCell.swift; sourceTree = "<group>"; };
+		FF569D1B20073FC70027512E /* MenuCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuCollectionViewCell.xib; sourceTree = "<group>"; };
+		FF7B52B32075C26F00D96014 /* isSetCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isSetCollectionViewCell.swift; sourceTree = "<group>"; };
+		FF7B52B42075C26F00D96014 /* isSetCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = isSetCollectionViewCell.xib; sourceTree = "<group>"; };
+		FF7E3E6F2057F9AD0082AB68 /* ColorCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCollectionViewCell.swift; sourceTree = "<group>"; };
+		FF7E3E702057F9AD0082AB68 /* ColorCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorCollectionViewCell.xib; sourceTree = "<group>"; };
+		FF7E3E732058FEC60082AB68 /* plusButtonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plusButtonCollectionViewCell.swift; sourceTree = "<group>"; };
+		FF7E3E742058FEC60082AB68 /* plusButtonCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = plusButtonCollectionViewCell.xib; sourceTree = "<group>"; };
+		FF7E3E77205BDC350082AB68 /* SwiftNotice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftNotice.swift; sourceTree = "<group>"; };
+		FF92E1FB200C6A140040E27A /* SelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		FF92E1FC200C6A140040E27A /* SelectViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectViewController.xib; sourceTree = "<group>"; };
+		FF92E1FF200C97500040E27A /* tableTitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableTitleCollectionViewCell.swift; sourceTree = "<group>"; };
+		FF92E200200C97500040E27A /* tableTitleCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = tableTitleCollectionViewCell.xib; sourceTree = "<group>"; };
+		FF92E203200CA1340040E27A /* DataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
+		FF92E204200CA1340040E27A /* DataTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DataTableViewCell.xib; sourceTree = "<group>"; };
+		FF92E207200D8F260040E27A /* myClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myClass.swift; sourceTree = "<group>"; };
+		FF92E2092011B17E0040E27A /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		FF92E20A2011B17E0040E27A /* MessageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageViewController.xib; sourceTree = "<group>"; };
+		FF92E20D2011BF350040E27A /* messageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = messageTableViewCell.swift; sourceTree = "<group>"; };
+		FF92E20E2011BF350040E27A /* messageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = messageTableViewCell.xib; sourceTree = "<group>"; };
+		FF92E2152011F4490040E27A /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
+		FF92E2162011F4490040E27A /* ColorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorViewController.xib; sourceTree = "<group>"; };
+		FF92E31820184C500040E27A /* CusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CusViewController.swift; sourceTree = "<group>"; };
+		FF92E31920184C500040E27A /* CusViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CusViewController.xib; sourceTree = "<group>"; };
+		FF92E31E201EE8270040E27A /* popTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popTableViewCell.swift; sourceTree = "<group>"; };
+		FF92E31F201EE8270040E27A /* popTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = popTableViewCell.xib; sourceTree = "<group>"; };
+		FF92E322201EEBE60040E27A /* popHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		FF92E323201EEBE60040E27A /* popHeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = popHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		FF92E370202D42090040E27A /* PDFReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFReader.h; sourceTree = "<group>"; };
+		FFB91E6A203BEA6700D80416 /* helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF92E371202D42970040E27A /* Pods_MeetingRecord.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +156,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		479C91354749DBBAD3AD7EE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B87637A1186CB09CDBB00D68 /* Pods-MeetingRecord.debug.xcconfig */,
+				E31E489BABD6EC97AECA326B /* Pods-MeetingRecord.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD3DD14D7D89E3BCF358DBDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7B056B85E5C35609C9F8EA1 /* Pods_MeetingRecord.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FF569C942005A3E70027512E = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +180,8 @@
 				FF569CB42005A3E80027512E /* MeetingRecordTests */,
 				FF569CBF2005A3E80027512E /* MeetingRecordUITests */,
 				FF569C9E2005A3E70027512E /* Products */,
+				479C91354749DBBAD3AD7EE3 /* Pods */,
+				BD3DD14D7D89E3BCF358DBDA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +198,52 @@
 		FF569C9F2005A3E70027512E /* MeetingRecord */ = {
 			isa = PBXGroup;
 			children = (
+				FF92E370202D42090040E27A /* PDFReader.h */,
 				FF569CA02005A3E80027512E /* AppDelegate.swift */,
+				FF7E3E77205BDC350082AB68 /* SwiftNotice.swift */,
+				FF569D102005DB300027512E /* OProgressView.swift */,
 				FF569CA22005A3E80027512E /* ViewController.swift */,
+				FF92E31E201EE8270040E27A /* popTableViewCell.swift */,
+				FF92E31F201EE8270040E27A /* popTableViewCell.xib */,
+				FF92E322201EEBE60040E27A /* popHeaderTableViewCell.swift */,
+				FF92E323201EEBE60040E27A /* popHeaderTableViewCell.xib */,
+				FF569D082005B38F0027512E /* MainViewController.swift */,
+				FF92E31820184C500040E27A /* CusViewController.swift */,
+				FF92E31920184C500040E27A /* CusViewController.xib */,
+				FF569D092005B38F0027512E /* MainViewController.xib */,
+				FF569D0C2005D2660027512E /* NaviCollectionViewCell.swift */,
+				FF569D0D2005D2660027512E /* NaviCollectionViewCell.xib */,
+				FF569D122006E8970027512E /* SubNaviCollectionViewCell.swift */,
+				FF569D132006E8970027512E /* SubNaviCollectionViewCell.xib */,
+				FF92E1FF200C97500040E27A /* tableTitleCollectionViewCell.swift */,
+				FF92E200200C97500040E27A /* tableTitleCollectionViewCell.xib */,
+				FF569D1A20073FC70027512E /* MenuCollectionViewCell.swift */,
+				FF569D1B20073FC70027512E /* MenuCollectionViewCell.xib */,
 				FF569CA42005A3E80027512E /* Main.storyboard */,
+				FF92E1FB200C6A140040E27A /* SelectViewController.swift */,
+				FF92E1FC200C6A140040E27A /* SelectViewController.xib */,
+				FF92E2152011F4490040E27A /* ColorViewController.swift */,
+				FF92E2162011F4490040E27A /* ColorViewController.xib */,
+				FF7E3E6F2057F9AD0082AB68 /* ColorCollectionViewCell.swift */,
+				FF7E3E702057F9AD0082AB68 /* ColorCollectionViewCell.xib */,
+				FF7B52B32075C26F00D96014 /* isSetCollectionViewCell.swift */,
+				FF7B52B42075C26F00D96014 /* isSetCollectionViewCell.xib */,
+				FF7E3E732058FEC60082AB68 /* plusButtonCollectionViewCell.swift */,
+				FF7E3E742058FEC60082AB68 /* plusButtonCollectionViewCell.xib */,
+				FF92E207200D8F260040E27A /* myClass.swift */,
+				FFB91E6A203BEA6700D80416 /* helper.swift */,
+				FF92E203200CA1340040E27A /* DataTableViewCell.swift */,
+				FF92E204200CA1340040E27A /* DataTableViewCell.xib */,
+				FF92E2092011B17E0040E27A /* MessageViewController.swift */,
+				FF92E20A2011B17E0040E27A /* MessageViewController.xib */,
+				FF92E20D2011BF350040E27A /* messageTableViewCell.swift */,
+				FF92E20E2011BF350040E27A /* messageTableViewCell.xib */,
+				FF569D18200723BB0027512E /* LWLCollectionViewHorizontalLayout.h */,
+				FF569D17200723BB0027512E /* LWLCollectionViewHorizontalLayout.m */,
 				FF569CA72005A3E80027512E /* Assets.xcassets */,
 				FF569CA92005A3E80027512E /* LaunchScreen.storyboard */,
 				FF569CAC2005A3E80027512E /* Info.plist */,
+				FF569D16200723BA0027512E /* MeetingRecord-Bridging-Header.h */,
 			);
 			path = MeetingRecord;
 			sourceTree = "<group>";
@@ -132,9 +273,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF569CC52005A3E80027512E /* Build configuration list for PBXNativeTarget "MeetingRecord" */;
 			buildPhases = (
+				5057C9629569D4888B80DB0A /* [CP] Check Pods Manifest.lock */,
 				FF569C992005A3E70027512E /* Sources */,
 				FF569C9A2005A3E70027512E /* Frameworks */,
 				FF569C9B2005A3E70027512E /* Resources */,
+				434CD623D63DAB10D7A753B8 /* [CP] Embed Pods Frameworks */,
+				E5222EA85B6F269F5AE45C3A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +337,7 @@
 				TargetAttributes = {
 					FF569C9C2005A3E70027512E = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					FF569CB02005A3E80027512E = {
@@ -232,9 +377,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF92E202200C97500040E27A /* tableTitleCollectionViewCell.xib in Resources */,
+				FF92E1FE200C6A140040E27A /* SelectViewController.xib in Resources */,
+				FF92E321201EE8270040E27A /* popTableViewCell.xib in Resources */,
+				FF569D1D20073FC70027512E /* MenuCollectionViewCell.xib in Resources */,
 				FF569CAB2005A3E80027512E /* LaunchScreen.storyboard in Resources */,
+				FF569D152006E8970027512E /* SubNaviCollectionViewCell.xib in Resources */,
+				FF92E206200CA1340040E27A /* DataTableViewCell.xib in Resources */,
+				FF92E325201EEBE60040E27A /* popHeaderTableViewCell.xib in Resources */,
+				FF7E3E722057F9AD0082AB68 /* ColorCollectionViewCell.xib in Resources */,
+				FF7B52B62075C26F00D96014 /* isSetCollectionViewCell.xib in Resources */,
+				FF92E31B20184C500040E27A /* CusViewController.xib in Resources */,
+				FF569D0F2005D2660027512E /* NaviCollectionViewCell.xib in Resources */,
+				FF7E3E762058FEC60082AB68 /* plusButtonCollectionViewCell.xib in Resources */,
 				FF569CA82005A3E80027512E /* Assets.xcassets in Resources */,
+				FF92E20C2011B17E0040E27A /* MessageViewController.xib in Resources */,
+				FF92E2102011BF350040E27A /* messageTableViewCell.xib in Resources */,
 				FF569CA62005A3E80027512E /* Main.storyboard in Resources */,
+				FF92E2182011F4490040E27A /* ColorViewController.xib in Resources */,
+				FF569D0B2005B38F0027512E /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,12 +415,91 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		434CD623D63DAB10D7A753B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MeetingRecord/Pods-MeetingRecord-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/PDFReader/PDFReader.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PDFReader.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeetingRecord/Pods-MeetingRecord-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5057C9629569D4888B80DB0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeetingRecord-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5222EA85B6F269F5AE45C3A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeetingRecord/Pods-MeetingRecord-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FF569C992005A3E70027512E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF92E320201EE8270040E27A /* popTableViewCell.swift in Sources */,
+				FF92E208200D8F260040E27A /* myClass.swift in Sources */,
+				FF92E20B2011B17E0040E27A /* MessageViewController.swift in Sources */,
+				FF7E3E752058FEC60082AB68 /* plusButtonCollectionViewCell.swift in Sources */,
+				FF569D0E2005D2660027512E /* NaviCollectionViewCell.swift in Sources */,
+				FF569D142006E8970027512E /* SubNaviCollectionViewCell.swift in Sources */,
+				FF92E201200C97500040E27A /* tableTitleCollectionViewCell.swift in Sources */,
+				FFB91E6B203BEA6700D80416 /* helper.swift in Sources */,
+				FF7B52B52075C26F00D96014 /* isSetCollectionViewCell.swift in Sources */,
+				FF92E324201EEBE60040E27A /* popHeaderTableViewCell.swift in Sources */,
+				FF569D0A2005B38F0027512E /* MainViewController.swift in Sources */,
+				FF569D1C20073FC70027512E /* MenuCollectionViewCell.swift in Sources */,
+				FF7E3E712057F9AD0082AB68 /* ColorCollectionViewCell.swift in Sources */,
 				FF569CA32005A3E80027512E /* ViewController.swift in Sources */,
+				FF569D19200723BB0027512E /* LWLCollectionViewHorizontalLayout.m in Sources */,
+				FF569D112005DB300027512E /* OProgressView.swift in Sources */,
+				FF92E205200CA1340040E27A /* DataTableViewCell.swift in Sources */,
+				FF92E20F2011BF350040E27A /* messageTableViewCell.swift in Sources */,
+				FF7E3E78205BDC350082AB68 /* SwiftNotice.swift in Sources */,
+				FF92E31A20184C500040E27A /* CusViewController.swift in Sources */,
+				FF92E1FD200C6A140040E27A /* SelectViewController.swift in Sources */,
+				FF92E2172011F4490040E27A /* ColorViewController.swift in Sources */,
 				FF569CA12005A3E80027512E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -369,6 +609,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Debug;
 		};
@@ -418,37 +659,47 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		FF569CC62005A3E80027512E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B87637A1186CB09CDBB00D68 /* Pods-MeetingRecord.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X5MMX4C3V9;
 				INFOPLIST_FILE = MeetingRecord/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = NICS.MeetingRecord;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.nics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MeetingRecord/MeetingRecord-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		FF569CC72005A3E80027512E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E31E489BABD6EC97AECA326B /* Pods-MeetingRecord.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X5MMX4C3V9;
 				INFOPLIST_FILE = MeetingRecord/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = NICS.MeetingRecord;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.nics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MeetingRecord/MeetingRecord-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};

@@ -7,7 +7,25 @@
 		<key>MeetingRecord.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>FF569C9C2005A3E70027512E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FF569CB02005A3E80027512E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FF569CBB2005A3E80027512E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
